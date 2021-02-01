@@ -99,7 +99,7 @@ else:
     driver.quit()
 
 # Rename export file in downloads folder, add datetime
-current_date = datetime.datetime.today().strftime("%a-%b-%d-%Y %H%M%S")
+current_date = datetime.datetime.today().strftime("%a-%b-%d-%YT%H:%M:%S")
 shutil.move(
     r"C:\Users\Chris\Downloads\EXPORT1.csv",
     r"C:\Users\Chris\Documents\Real Estate\PowerBI Project\Matrix Sold Data Dumps\Matrix_Dump "
